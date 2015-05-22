@@ -1,0 +1,9 @@
+go:
+    image: evonck/go
+    ports:
+        - "3999:3999"
+    volumes:
+        - .:/srv/app/tour
+    command: /srv/app/tour/start.sh
+  
+
